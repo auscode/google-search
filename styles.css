@@ -2,7 +2,7 @@ body{
     margin-left:30px;
     font-family: arial, sans-serif;
 }
-.adv-search-body{
+.asb{
     font-weight:inherit;
 }
 
@@ -12,12 +12,9 @@ body{
 }
 .g-image{
     position: relative;
-    aspect-ratio: auto 272 / 92;
 }
 
-
 .afh{
-    /* padding-bottom:30px;  */
     margin:30px;
 }
 a{
