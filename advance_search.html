@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <!-- adding the link to css file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- adding bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="adv-search-body">
+    <div id="topbar">
+      <a href="index.html">Google Search</a>
+    </div>
+
+    <div>
+      <label class="label-class">Advanced Search</label>
+    </div>
+
+    <div class="line-block"></div>
+
+    <div>
+      <form
+        action="https://google.com/search"
+        method="GET|POST"
+        name="adv-form"
+      >
+        <!-- Advance-form-head -->
+        <div class="afh">
+          <!-- form-instructions alpha beta gama theta -->
+          <div class="fo">
+            <span class="title-text">Find pages with..</span>
+          </div>
+          <div class="fo-a">
+            <label>all these words:</label>
+            <input class="block-div" type="text" name="as_q" />
+          </div>
+
+          <div class="fo-b">
+            <label>this exact word or phrase: </label>
+            <input class="block-div" type="text" name="as_epq" />
+          </div>
+
+          <div class="fo-g">
+            <label>any of these words: </label>
+            <input class="block-div" type="text" name="as_oq" />
+          </div>
+
+          <div class="fo-t">
+            <label>none of these words: </label>
+            <input class="block-div" type="text" name="as_eq" />
+          </div>
+          <!-- submit block  as sb -->
+          <div class="sb">
+            <input class="submit-btn" value="Advanced Search" type="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Search</title>
+
+    <!-- adding the link to css file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- adding bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="topbar">
+      <a href="images.html">Images</a>
+      <a href="advance_search.html">Advance Search</a>
+    </div>
+    <center>
+      <div class="g-img-b">
+        <img
+          class="g-image"
+          src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="google-image"
+          width="272"
+        />
+      </div>
+    </center>
+
+    <center>
+      <form action="https://google.com/search">
+        <!-- wb stANDS FOR WRITE BLOCK  -->
+        <div>
+          <input id="wb" type="text" name="q" size="75" />
+        </div>
+
+        <div class="search_menu">
+          <input class="gs" type="submit" value="Google Search" />
+          <input class="gs" type="submit" value="I'm Feeling Lucky" />
+        </div>
+      </form>
+    </center>
+  </body>
+</html>
